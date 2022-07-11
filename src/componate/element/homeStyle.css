@@ -1,0 +1,518 @@
+/* Total Our Home view */
+.TotalHomeView {
+    margin: 0%;
+    background-color: #442161;
+}
+
+/* Our Headind Nav bar View */
+.heyDev {
+
+    font-size: 2rem;
+    height: max-content;
+    width: max-content;
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 18px;
+
+    color: #f7e0d4;
+    animation: updown 4s ease infinite;
+
+    position: absolute;
+
+    margin-left: 25%;
+}
+
+/* Head Nav My name View */
+.myName {
+    /* margin: 0.2rem; */
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #d4eaf7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading All service view */
+.allServiceView a {
+    padding: 0.5rem;
+    display: flex;
+
+    flex-direction: row;
+    display: inline-block;
+    text-decoration: none;
+    color: #d4eaf7;
+    font-size: 1.3rem;
+}
+
+/* My profile picture View */
+.muPhoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    border-radius: 50%;
+    
+}
+
+.profilePic {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+
+    border: 5px solid rgba(223, 223, 223, 0.25);
+
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0), -15px 13px 17px 0px rgba(141,55,158,0.28), 22px 6px 24px -3px rgba(254,226,122,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0), -15px 13px 17px 0px rgba(141,55,158,0.28), 22px 6px 24px -3px rgba(254,226,122,0.4);
+}
+
+.profileDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myProfileHead {
+    position: relative;
+    background: linear-gradient(-45deg, #4756c3, #9749a7, #f44e94, #f86765, #fdaf66, #f8de7f);
+    animation: profileSHow 10s ease-in-out infinite;
+    background-size: 400% 400%;
+
+}
+
+.MeData {
+    font-size: 3rem;
+    color: #d4eaf7;
+}
+
+.placeEd {
+    text-align: center;
+    font-size: 2rem;
+    color: #61dbfb;
+}
+
+@keyframes profileSHow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    33% {
+        background-position: 66% 33%;
+    }
+
+    66% {
+        background-position: 100% 33%;
+    }
+
+    100% {
+        background-position: 0 66%;
+    }
+}
+
+@keyframes updown {
+    from { transform: translate(0,  0px); }
+   65%  { transform: translate(0, 15px); }
+   to   { transform: translate(0, -0px); }
+
+}
+
+/* .elonDg{
+    width: 100%; */
+/* color: white; */
+/* margin-top: 0%;
+} */
+.goldMusk {
+    font-size: 5rem;
+    text-align: center;
+
+    color: aliceblue;
+}
+
+.elonMk {
+    font-size: 5rem;
+    text-align: end;
+
+    background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* All Service View style */
+
+.serviceIT {
+    font-size: 4rem;
+    text-align: center;
+
+    color: #f7e0d4;
+}
+
+.workMate {
+    font-size: 3rem;
+    text-align: start;
+
+    color: #d4eaf7;
+}
+
+.androidLogo {
+    color: #3ddc84;
+}
+
+.githubLogo {
+    color: #4183c4;
+}
+
+.pythonLogo {
+    color: #FFE873;
+}
+
+.reactLogo {
+    color: #61dbfb;
+}
+
+.codeLogo {
+    color: blueviolet;
+}
+
+.skilIT,
+.websiteIt,
+.appDevIT {
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid rgb(78, 78, 78);
+
+    background-color: #111a5d;
+
+    cursor: pointer;
+
+    transition: 1s ease-in-out;
+}
+
+.ParaAppDevIT {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.skilIT:hover {
+    box-shadow: 2px 17px 23px 1px rgba(141, 55, 158, 0.71);
+    -webkit-box-shadow: 2px 17px 23px 1px rgba(141, 55, 158, 0.71);
+    -moz-box-shadow: 2px 17px 23px 1px rgba(141, 55, 158, 0.71);
+}
+
+.websiteIt:hover {
+    box-shadow: 2px 17px 23px 1px rgba(241, 52, 132, 0.71);
+    -webkit-box-shadow: 2px 17px 23px 1px rgba(241, 52, 132, 0.71);
+    -moz-box-shadow: 2px 17px 23px 1px rgba(241, 52, 132, 0.71);
+}
+
+.appDevIT:hover {
+    box-shadow: 2px 17px 23px 1px rgba(40, 184, 114, 0.71);
+    -webkit-box-shadow: 2px 17px 23px 1px rgba(40, 184, 114, 0.71);
+    -moz-box-shadow: 2px 17px 23px 1px rgba(40, 184, 114, 0.71);
+
+}
+
+.skillITDiv1,
+.skillITDiv2,
+.skillITDiv3 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.skillITDiv1 {
+    /* color: #8D379E; */
+
+    font-size: 2rem;
+
+    background: linear-gradient(to right, #8D379E 0%, #4183c4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skillITDiv2 {
+    /* color: #F13484; */
+
+    font-size: 2rem;
+
+    background: linear-gradient(to right, #F13484 0%, #af4401 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skillITDiv3 {
+    /* color: #28B872; */
+    font-size: 2rem;
+
+    background: linear-gradient(to right, #28B872 0%, #3baf01 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skilImg {
+    width: 100%;
+}
+
+.bitEmojiImage {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bitEmojiImage img {
+    height: 55%;
+    width: 55%;
+}
+
+.skilDivTwo,
+.skilDivOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.servisAndSkil {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.myProHead {
+    font-size: 4rem;
+
+    color: burlywood;
+}
+
+.projectPoster {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.newsPro,
+.voiceRecogNi,
+.noteMak,
+.nateflixCl {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    width: 33%;
+}
+
+.proPic {
+    width: 90%;
+    /* height: 20%; */
+    display: block;
+    margin: 22px;
+}
+
+.pro {
+    background-color: rgb(205, 205, 205);
+    border-radius: 12px;
+    width: fit-content;
+    color: #8D379E;
+    font-size: 25px;
+    margin: 2rem;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.proPic {
+    border-radius: 13% 0% 12% 0%;
+    transform: rotateX(0);
+    transform-style: preserve-3d;
+    transition: .3s;
+
+    box-shadow: rgba(100, 100, 111, 0.74) 0px 7px 29px 0px;
+
+}
+
+.proPic:hover {
+    transform: rotateX(45deg) rotateZ(-25deg);
+    transform-style: preserve-3d;
+
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .5)
+}
+
+.comingProjectHead {
+    font-size: 3rem;
+    color: #d4eaf7;
+    text-align: center;
+}
+
+.gitIcon {
+    display: flex;
+    justify-content: center;
+}
+
+/* About Me */
+.headAbout {
+    font-size: 4rem;
+    color: #8D379E;
+}
+
+.welcomeDev {
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+
+
+    position: relative;
+    background: linear-gradient(-45deg, #283AB8, #8D379E, #F13484, #FF605D, #FEA959, #FEE27A);
+    animation: profileSHow 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutName {
+    font-size: 5rem;
+
+    position: relative;
+    background: linear-gradient(-45deg, #b8288f, #3a9e37, #F13484, #5dfcff);
+    animation: profileSHow 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paraAbout {
+    margin: 2rem;
+    font-size: 2rem;
+
+    color: #5dfcff;
+}
+
+.allAboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skillHead {
+    font-size: 1.5rem;
+    color: #d4eaf7;
+}
+
+.skillMain,
+.educationAllAbout {
+    margin: 12px;
+    font-size: 1.5rem;
+    color: #f7e0d4;
+}
+
+.workToget {
+    font-size: 3.3rem;
+    margin: 2rem;
+    color: #5dfcff;
+}
+
+.contactMetittle {
+    color: #d4eaf7;
+    font-size: 2rem;
+    margin: 2rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnContact {
+    display: flex;
+    justify-content: center;
+}
+
+.contactBtn {
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #b8288f;
+    font-size: 2rem;
+    color: #d4eaf7;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.contactBtn:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    background-color: #442161;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.endSocialDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.meName {
+    margin: 2rem;
+    color: #4183c4;
+}
+
+.socialIcon {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.socialIcon a i {
+    color: #F13484;
+    transition: 1s;
+}
+
+.socialIcon a i:hover {
+    color: #FEE27A;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/* All Hr View */
+
+.hrOne {
+    width: 80%;
+    border: 3px solid rgba(137, 196, 244, 1);
+    border-radius: 5px;
+}
+
+.hrTwo {
+    width: 70%;
+    border: 3px solid #b8288f;
+    border-radius: 5px;
+
+    margin-top: 5%;
+}
+
+.hrThree {
+    width: 60%;
+    border: 3px solid #FEE27A;
+    border-radius: 5px;
+}
+
+.hrFour {
+    width: 40%;
+    border: 3px solid #FF605D;
+    border-radius: 5px;
+}
+
+.hrFive {
+    width: 65%;
+    border: 3px solid #ff8a00;
+    border-radius: 5px;
+}
+
+/* .hrSix{
+    width: 95%;
+    border: 3px solid #F13484;
+    border-radius: 5px;
+} */

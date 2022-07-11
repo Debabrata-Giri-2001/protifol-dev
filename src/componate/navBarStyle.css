@@ -1,0 +1,29 @@
+.navList{
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    background-color: rgb(223, 244, 249);
+}
+.home_View,
+.work_view{
+    list-style: outside none none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+
+}
+.home_View a,
+.work_view a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(144, 8, 92);
+}

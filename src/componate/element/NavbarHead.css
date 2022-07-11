@@ -1,0 +1,88 @@
+nav {
+    /* width:70%; */
+    height: 5px;
+}
+
+.NameDiv {
+    padding: 12%;
+
+}
+
+.meNameDiv {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.MyNameDev {
+    color: aqua;
+    top: 12px;
+    font-size: 2rem;
+}
+
+.list {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.items {
+    margin-right: 20px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #f1f1f1;
+    font-size: 18px;
+
+    border: none;
+    background: transparent;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .list {
+        flex-direction: column;
+        height: min-content;
+        background-color: #906868e3;
+        border-radius: 32px 0px 0px 12px;
+
+    }
+
+    .items {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+
+
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .meNameDiv {
+        display: flow-root;
+        top: 15px;
+        background-color: none;
+    }
+
+    .MyNameDev {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,127 @@
+@media screen and (max-width:600px) {
+    .TotalHomeView {
+        width: 100%;
+    }
+
+    .profilePic {
+        height: 40%;
+        width: 40%;
+    }
+
+    .heyDev {
+        font-size: 1.2rem;
+        padding: 5px;
+
+        margin-left: 5%;
+    }
+
+    .profileHead {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .MeData {
+        font-size: 1.8rem;
+    }
+
+    .placeEd {
+        font-size: 1.5rem;
+    }
+
+    .goldMusk {
+        font-size: 2rem;
+    }
+
+    .elonMk {
+        font-size: 3rem;
+    }
+
+    .servisAndSkil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .serviceDevlopment {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .myProHead {
+        font-size: 3rem;
+    }
+
+    .workMate {
+        font-size: 1.6rem;
+    }
+
+    .projectPoster {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .newsPro,
+    .voiceRecogNi,
+    .noteMak,
+    .nateflixCl {
+        width: 100%;
+    }
+
+    .welcomeDev {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .paraAbout {
+        text-align: center;
+    }
+
+    .allAboutMe {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .endSocialDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialIcon {
+        margin: 0%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .myProfileHead {
+        position: relative;
+        background: linear-gradient(-45deg, #4756c3, #9749a7, #f44e94, #f86765, #fdaf66, #f8de7f);
+        animation: profileSHow 3s ease-in-out infinite;
+        background-size: 300% 300%;
+    
+    }
+}
+
+@keyframes profileSHow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    33% {
+        background-position: 66% 33%;
+    }
+
+    66% {
+        background-position: 100% 33%;
+    }
+
+    100% {
+        background-position: 0 66%;
+    }
+}
